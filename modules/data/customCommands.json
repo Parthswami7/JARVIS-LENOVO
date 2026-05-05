@@ -1,0 +1,4 @@
+{
+  "open documents": "start %USERPROFILE%\\Documents",
+  "open downloads": "start %USERPROFILE%\\Downloads"
+}

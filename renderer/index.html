@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JarvisLite</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="hud">
+      <section class="ring">
+        <div class="core"></div>
+        <div class="wave" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </section>
+      <section class="panel">
+        <h1>JARVIS LITE</h1>
+        <p id="status">Offline. Say “Hey Jarvis” or type command.</p>
+        <div class="input-row">
+          <input id="commandInput" type="text" placeholder="Type command..." autocomplete="off" />
+          <button id="sendBtn">Run</button>
+        </div>
+        <pre id="output"></pre>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
